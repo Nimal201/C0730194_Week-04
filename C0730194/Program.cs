@@ -19,7 +19,7 @@ namespace C0730194
        public bool isAstrildeHere;
         public village nextvillage;
         public village prevvillage;
-        
+        public String villagName;
 
 
     }
