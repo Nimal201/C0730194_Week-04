@@ -10,6 +10,33 @@ namespace C0730194
     {
         static void Main(string[] args)
         {
+            countryside c = new countryside();
         }
     }
+
+    class village
+    {
+       public bool isAstrildeHere;
+        public village nextvillage;
+        public village prevvillage;
+        
+
+
+    }
+
+
+    class countryside
+    {
+        village Maple ,Toronto, Ajax;
+
+        public void run()
+        {
+            Maple = new village();
+            Maple.villagName = "Toronto";
+            Maple.villagName = Toronto;
+
+        }
+
+    }
 }
+
